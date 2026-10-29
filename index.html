@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wormhole</title>
+  </head>
+  <body>
+    <div id="overlay">
+      <div class="panel">
+        <h1>Wormhole</h1>
+        <p class="sub">Floresta ao dia · Deserto à noite</p>
+        <p id="status">Gerando mundos…</p>
+        <ul class="keys">
+          <li><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> andar</li>
+          <li><kbd>Shift</kbd> correr</li>
+          <li><kbd>Espaço</kbd> pular</li>
+          <li><kbd>F</kbd> voar (Espaço sobe, <kbd>C</kbd> desce)</li>
+          <li><kbd>Mouse</kbd> olhar · <kbd>Esc</kbd> pausar</li>
+        </ul>
+        <button id="play" disabled>Aguarde…</button>
+      </div>
+    </div>
+    <div id="hud">
+      <div id="world-label"></div>
+      <div id="distance"></div>
+      <div id="crosshair"></div>
+      <div id="mode"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
